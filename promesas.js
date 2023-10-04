@@ -12,7 +12,7 @@ console.log(myPromise);
 
 console.log('Inicia promesa');
 
-myPromise.then(() => {});
+
 
 myPromise.then((data) =>{
     console.log(data);
