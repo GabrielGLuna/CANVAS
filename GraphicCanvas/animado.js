@@ -1,4 +1,4 @@
-const lienzo = document.querySelector('#mycanva');
+const lienzo = document.querySelector('#canva');
 const ctx = lienzo.getContext('2d');
 
 let idx=0;
@@ -30,7 +30,7 @@ setInterval(() => {
     cuadro(idx, idy);
 
     if (moveRight) {
-        if (idx < 380) {
+        if (idx < 580) {
             idx += 20;
         } else {
             moveRight = false; // Cambiar dirección a la izquierda

@@ -1,4 +1,4 @@
-const lienzo = document.querySelector('#mycanva');
+const lienzo = document.querySelector('#canva');
 
 
 const ctx= lienzo.getContext('2d');
